@@ -1,0 +1,264 @@
+html{
+    width: 100%;
+    margin:0;
+    
+}
+body{
+    width:100%;
+    background-color: black;
+color: white;
+}
+/* ================================================ */
+/* ================================================ */
+
+header{
+    height: 90vh;
+    width: 100%;
+    background-image: url("images/header-background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.ul-class-a{ font-size: 30px;
+    /* width: 100%; */
+    list-style: none;
+    color: white;
+    display: flex;
+    /*     flex-wrap: no-wrap;*/
+    justify-content: space-around;
+align-items: center;}
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+    margin-left:15px; 
+    
+}
+.navbar li:hover{
+font-weight:bold ;
+color:yellow;
+}
+.photo_intro{
+    display: flex;
+    /* border: 4px solid red; */
+    width: 80%;
+    height: 40vh;
+    font-size: 20px;
+
+}
+.my_photo{
+width: 20%;
+/* border: 2px solid blue; */
+background-image: url("images/profilepic.jpg");
+background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size:cover;
+    background-position: center;
+    border-radius:50%; 
+}
+.para_head{
+    width: 70%;
+    /* border: 2px solid green; */
+    /* display: flex; */
+    text-align: center;   
+    padding:0% 5%; 
+}
+
+
+.li_image_size img {
+    margin: 10px;
+    width: 50px;
+
+}
+/* ================================================ */
+/* ================================================ */
+
+.box{
+    height: 90vh;
+    background-color: beige;
+display: flex;
+border-bottom: 2px solid black;
+}
+.right {
+    height: 100%;
+    width: 70%;
+        overflow: hidden;
+
+    background-color: blue;
+
+}
+
+.left {
+    height: 100%;
+    width: 30%;
+    background-color: antiquewhite;
+
+}
+
+/* ================================================ */
+/* ================================================ */
+
+.about .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #312d2d;
+}
+.about .left img{
+    border-radius: 50%;
+    }
+    .about .right{
+        background-color: #312d2d;
+        padding-left:5%;
+        padding-top:5%; 
+        line-height: 1.5;
+
+    }
+    .about .right p{
+        width: 80%;
+        color:gray;
+    }
+/* ================================================ */
+/* ================================================ */
+
+.education{
+    color: black;
+background-color: thistle;
+
+}
+.education .left h1{
+    margin-left:5%;
+    padding-top:5%;
+    padding-bottom: 3%;
+    border-bottom: 2px solid green;
+    display: inline-block;
+}
+.education .left{
+background-color: white;
+text-align: center
+}
+.education .right{
+    
+background-color: whitesmoke;
+padding-left:5%;
+/* padding-top:2%; */
+}
+.education .right h1{
+    padding-top: 5%;
+}
+.education .right p{
+width:70%;
+color: gray;
+font-style: italic;
+font-size: 20px;
+}
+/* ================================================ */
+/* ================================================ */
+
+.flex_box {
+
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: floralwhite;
+}
+
+.flex_card {
+    height: 28vh;
+    width: 368.5px;
+    border: 2px solid black;
+    /*    background-attachment: fixed;*/
+    background-position: center;
+    background-size: cover;
+
+}
+
+.flex_card1 {
+    background-image: url(images/portfolio/farmerboy.jpg);
+    background-position: center;
+}
+
+.flex_card2 {
+    background-image: url(images/portfolio/into-the-light.jpg)
+}
+
+.flex_card3 {
+    background-image: url(images/portfolio/origami.jpg)
+}
+
+.flex_card4 {
+    background-image: url(images/portfolio/farmerboy.jpg)
+}
+
+.flex_card5 {
+    background-image: url(images/portfolio/girl.jpg)
+}
+
+.flex_card6 {
+    background-image: url(images/portfolio/into-the-light.jpg)
+}
+
+.flex_card7 {
+    background-image: url(images/portfolio/modals/m-coffee.jpg)
+}
+
+.flex_card8 {
+    background-image: url(images/portfolio/origami.jpg)
+}
+
+.flex_card9 {
+    background-image: url(images/portfolio/retrocam.jpg)
+}
+
+.flex_card10 {
+    background-image: url(images/portfolio/modals/m-girl.jpg)
+}
+
+
+/* ================================================ */
+/* ================================================ */
+
+/* SKILLS SECTION */
+.skills .right{display: flex;
+flex-direction: column;
+justify-content: space-around;}
+.progress-bar{
+    background-color: darkgrey;
+    border: 1px solid black;
+    width:75%;
+    height:16px;
+}
+.percent_display{
+    background-color: black;
+    height:100%;
+}
+.margin{margin-bottom:5%;}
+.eighty{width:80%;}
+.ninety{width: 90%;}
+.seventy_five{width: 75%;}
+.seventy{width:70%;}
+/* ================================================ */
+/* ================================================ */
+
+
+footer{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ================================================ */
+/* ================================================ */
+/* ================================================ */
+/* ================================================ */
